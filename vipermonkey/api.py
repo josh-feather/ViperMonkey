@@ -49,6 +49,8 @@ from vipermonkey.core import deobfuscation
 from vipermonkey.core.modules import *
 from vipermonkey.core.modules import Module as _Module
 from vipermonkey.core.vba_lines import vba_collapse_long_lines
+from vipermonkey.core.vba_context import Context
+from vipermonkey.core import procedures
 
 # NOTE: This MUST be imported because it registers function to the VBA_LIBRARY
 # dictionary in vba_context... don't ask me why.
